@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34616.47
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HepsiProject.Application", "Core\HepsiProject.Application\HepsiProject.Application.csproj", "{C671D508-4595-45D0-82F2-723BF6D31F47}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HepsiProject.Application", "Core\HepsiProject.Application\HepsiProject.Application.csproj", "{C671D508-4595-45D0-82F2-723BF6D31F47}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{50C70F8E-D1BF-49AF-826D-D4A5CBB0CF39}"
 EndProject
@@ -11,9 +11,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastucture", "Infrastuct
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{9B3FE17C-57AB-4E25-BA24-411F1678B1FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HepsiProject.Domain", "Core\HepsiProject.Domain\HepsiProject.Domain.csproj", "{CAA6259F-686A-4DA0-A355-2B1735CE8D27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HepsiProject.Domain", "Core\HepsiProject.Domain\HepsiProject.Domain.csproj", "{CAA6259F-686A-4DA0-A355-2B1735CE8D27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HepsiProject.Infrastucture", "Infrastucture\HepsiProject.Infrastucture\HepsiProject.Infrastucture.csproj", "{ABAD7E91-A6AA-4616-B06D-95BB05FE90FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HepsiProject.Infrastucture", "Infrastucture\HepsiProject.Infrastucture\HepsiProject.Infrastucture.csproj", "{ABAD7E91-A6AA-4616-B06D-95BB05FE90FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HepsiProject.Persistence", "Infrastucture\HepsiProject.Persistence\HepsiProject.Persistence.csproj", "{E6602AFE-3626-4180-A55D-18A99B11588B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HepsiProject.Api", "Presentation\HepsiProject.Api\HepsiProject.Api.csproj", "{B30B2D09-3B7E-4D2B-95E9-B1894BA53FD1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{ABAD7E91-A6AA-4616-B06D-95BB05FE90FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABAD7E91-A6AA-4616-B06D-95BB05FE90FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ABAD7E91-A6AA-4616-B06D-95BB05FE90FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6602AFE-3626-4180-A55D-18A99B11588B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6602AFE-3626-4180-A55D-18A99B11588B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6602AFE-3626-4180-A55D-18A99B11588B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6602AFE-3626-4180-A55D-18A99B11588B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B30B2D09-3B7E-4D2B-95E9-B1894BA53FD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B30B2D09-3B7E-4D2B-95E9-B1894BA53FD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B30B2D09-3B7E-4D2B-95E9-B1894BA53FD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B30B2D09-3B7E-4D2B-95E9-B1894BA53FD1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +53,8 @@ Global
 		{C671D508-4595-45D0-82F2-723BF6D31F47} = {50C70F8E-D1BF-49AF-826D-D4A5CBB0CF39}
 		{CAA6259F-686A-4DA0-A355-2B1735CE8D27} = {50C70F8E-D1BF-49AF-826D-D4A5CBB0CF39}
 		{ABAD7E91-A6AA-4616-B06D-95BB05FE90FC} = {717F6885-E0DA-453B-A8E4-66D89D1A9F94}
+		{E6602AFE-3626-4180-A55D-18A99B11588B} = {717F6885-E0DA-453B-A8E4-66D89D1A9F94}
+		{B30B2D09-3B7E-4D2B-95E9-B1894BA53FD1} = {9B3FE17C-57AB-4E25-BA24-411F1678B1FF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C73B6323-A645-4B46-8138-2ADEF8C12F5E}
